@@ -1,0 +1,453 @@
+body{
+    margin: 0%;
+    overflow-x: hidden;
+}
+#poster{
+    
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+#poster>img{
+    
+    object-fit:cover;
+}
+ #container{
+    /* border: 1px solid red; */
+ max-width: 1090px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    background-color: white;    
+} 
+.section{
+    width: 100%;
+    height: 241px;
+    /* border: 1px dashed black; */
+    padding-top: 20px;
+}
+
+h2{
+    margin: auto;
+    padding-left: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+.para{
+    margin: auto;
+    padding-left: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 20px;
+}
+.para:hover{
+    color: teal;
+    cursor: pointer;
+}
+#photo1{
+    width: 260px;
+}
+#down1{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQB7vpUl8z6K4z8wnX-i051M-5yVruQcoF_8SGokuMh5Fo3QMTR');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 190px;
+}
+
+#down2{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/homepage/SAN_LOGO_US1614013781419.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 150px;
+}
+#down3{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/images/14module/Campaigns2016/shopessentials/us_eng_shopessentials_tile_partners_june2016.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 200px;
+}
+
+
+
+#down4{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/homepage/shop-usa-40191-shop-local-shopping-essentials-deals-page-images-r01-175x1756.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 160px;
+}
+
+
+#down5{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/images/14module/Campaigns/SHOP_US_AllDeptPage_SHOPServices.jpg');
+    background-repeat: no-repeat;
+    background-position: center top ;
+    background-size: 165px;
+}
+
+#down6{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/images/14module/Campaigns/Health_Nutrition_VitiminTile_5.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    background-size: 170px;
+}
+
+
+#down7{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/homepage/us-en-motives-alldeaprtments-banner-jun211624630838708.png');
+    background-repeat: no-repeat;
+    background-position: center right ;
+    background-size: 170px;
+}
+
+
+
+#down8{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/homepage/Beauty%20Products8.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 190px;
+}
+
+
+
+#down9{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/homepage/Home1.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 180px;
+}
+
+
+#down10{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/homepage/us-eng-alldept-clothes_21518813001489.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 180px;
+}
+
+
+
+#down11{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/homepage/us_baby_dna_alldepts6.png');
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size: 180px;
+}
+
+
+#down12{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/homepage/us-eng-alldept-electronics-smartwatches1518813395990.png');
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size: 180px;
+}
+
+
+#down13{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/homepage/us-eng-alldept-business_21518812226504.png');
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size: 180px;
+}
+
+#down14{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/homepage/jewelry-dept1620321997479.jpg');
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size: 180px;
+}
+
+
+#down15{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/homepage/Garage1.png');
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size: 180px;
+}
+
+
+
+
+#down16{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/homepage/Pets0.png');
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size: 180px;
+}
+
+
+#down17{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/homepage/us-eng-alldept-travel1518807283345.png');
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size: 180px;
+}
+
+
+#down18{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/homepage/us-eng-alldept-sports-fitbit1518802668827.png');
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size: 180px;
+}
+
+
+#down19{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/homepage/Crafts0.png');
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size: 180px;
+}
+
+#down20{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/homepage/us-eng-alldept-basketball1518813757030.png');
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size: 180px;
+}
+
+
+#down21{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/homepage/us-en-alldept-entertainment-oct211634837444684.png');
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size: 180px;
+}
+
+
+#down22{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/images/14module/Campaigns/SHOP_US_AllDeptPage_MABrands.jpg');
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size: 180px;
+}
+
+
+#down23{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/images/14module/Campaigns/SHOP_US_AllDeptPage_PersonalServices.jpg');
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size: 180px;
+}
+
+
+#down24{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/images/14module/Campaigns/SHOP_US_AllDeptPage_FinancialServices.jpg');
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size: 180px;
+}
+
+
+#down25{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/homepage/shopbuddy175x1752.png');
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size: 170px;
+}
+
+
+#down26{
+    width: 100%;
+    height: 80%;
+    background-image: url('https://img.shop.com/Image/homepage/us_eng_alldepts_gifts_june20175.jpg');
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size: 170px;
+}
+
+
+
+/* media query has been started here */
+/* this is for mediom screen */
+
+@media only screen and (min-width: 525px) and (max-width: 782px){
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    main{
+       width: 100%;
+       padding: 0%;
+       margin: 0%;
+
+   }
+    #poster{
+        /* border: 1px solid red; */
+        display: flex;
+        max-width: 100%;
+        justify-content: center;
+        overflow: hidden;
+        height: 250px;
+    }
+    #poster>img{
+        /*  */
+        object-fit:cover;
+        overflow: hidden;
+    }
+
+
+ #container{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: auto;
+     /* border: 1px solid black; */
+     width: 100%;
+    overflow: hidden;
+    object-fit: fill;
+    margin: auto;
+    }
+ .section{
+     /* border: 1px solid red; */
+     max-width: 95%;
+     overflow: hidden;
+     margin: auto;
+     height: 220px;
+     
+ }
+ 
+ .para{
+     /* border: 1px solid green; */
+     margin: auto;
+    
+     font-family: 'Roboto', sans-serif;
+     font-weight: 9;
+     font-size: 10px;
+     line-height: 16px;
+ }
+ h2{
+     font-size: 20px;
+     color: #0c1524;
+     text-shadow: 0.5px solid  #adcee6;
+     line-height: 23px;
+ }
+ 
+ 
+ .para:hover{
+     color: teal;
+     cursor: pointer;
+ }
+}
+
+
+
+/* this is for small screen */
+@media only screen and (min-width: 81px) and (max-width: 525px){
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    main{
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+    }
+    #poster{
+        /* border: 1px solid red; */
+        display: flex;
+        max-width: auto;
+        justify-content: center;
+        overflow: hidden;
+        height: 100px;
+        margin: auto;
+    }
+    #poster>img{
+        /*  */
+        object-fit:cover;
+    }
+ #container{
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: auto;
+     /* border: 1px solid black; */
+     width: 100%;
+     margin: auto;
+ }
+ .section{
+     /* border: 1px solid red; */
+     max-width: 50%;
+     
+     margin: auto;
+     
+ }
+ 
+ .para{
+     /* border: 1px solid green; */
+     margin: auto;
+    
+     font-family: 'Roboto', sans-serif;
+     font-weight: 10;
+     font-size: 20%;
+     line-height: 14px;
+ }
+ h2{
+     font-size: 60%;
+ }
+ 
+ 
+ .para:hover{
+     color: teal;
+     cursor: pointer;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* media querry has been end  */
+}
